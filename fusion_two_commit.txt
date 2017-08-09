@@ -1,0 +1,7 @@
+Au commencement, on est sur le sommet de la branche dans laquelle on veut fusionner les deux derniers commits:
+
+-> place la branche dans l'état juste précédent.
+git reset --soft "HEAD^"
+-> applique la fusion, il sera demandé de nommer le commit fusionnel.
+git commit --ammend
+--------------------------------------------------------------------
